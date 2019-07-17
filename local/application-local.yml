@@ -105,6 +105,3 @@ security:
       loadBalanced: true
       token-info-uri: http://pig-auth/oauth/check_token
       
-datasource: 
-  load: 
-    properties: http://localhost:8989/datasource-mapper-local.properties
