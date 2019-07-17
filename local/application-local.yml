@@ -107,4 +107,4 @@ security:
       
 datasource: 
   load: 
-    properties: http://localhost:8989/datasource-mapper.properties
+    properties: http://localhost:8989/datasource-mapper-local.properties
