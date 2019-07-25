@@ -16,7 +16,7 @@
 datasource:
   readSize: 2 #读库个数
   type: com.alibaba.druid.pool.DruidDataSource
-  write:
+  master:
     url: jdbc:mysql://192.168.1.233:3306/master?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
     password: sql@kdn!123
@@ -35,7 +35,7 @@ datasource:
     testOnReturn: false
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
-  read:
+  slave0:
     url: jdbc:mysql://192.168.1.233:3306/slave0?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
     password: sql@kdn!123
